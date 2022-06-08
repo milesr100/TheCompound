@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-position:center;
+  background-size: cover;
+}
+
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/cmpndbckg.png);
+}
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo{
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu-icon{
+  width: 30px;
+  cursor:pointer;
+  margin-left: 40px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: medium;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col{
+  flex-basis: 55%;
+}
+
+h1{
+  color:antiquewhite;
+  font-size: 100px;
+}
+
+p{
+  color: #efd7fa;
+  font-size: 11px;
+  line-height: 15px
+}
+
+button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px;
+  background: rgb(255, 255, 255);
+  border: 0ch;
+  border-radius: 20px;
+  outline:none;
+  margin-top: 30px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 12px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(#);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+h5{
+  color: aliceblue;
+  text-shadow: 0 0 5px #9999;
+}
+
+button{
+  cursor: pointer;
+}
+
+.card1{
+  background-image: url(images/basketball-logo-simple-line-drawing-vector-35536222.jpeg);
+}
+
+.card2{
+  background-image: url(images/IMG_0004.JPG);
+}
+
+.card3{
+  background-image: url(images/compund-logo.png);
+  background-color: black;
+}
+
+.card4{
+  background-image: url(images/ec890d99cbff4abe41e7226e669332dd.jpeg);
+  background-color: black;}
+
+  .card5{
+    background-color: rgba(78, 75, 75, 0.298);
+  }
+
+  .card6{
+    background-color: rgba(78, 75, 75, 0.298);  
+  }
+
+
+h4{
+  color: aliceblue;
+}
+
+
+.event-container{
+  font-family: "Roboto",sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-container h3.year{
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid #b1b1b1;
+  color: aliceblue;
+}
+
+.event-container .event{
+  box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+  color: aliceblue;
+  background-color: #b1b1b154;
+}
+
+.event .event-left{
+background: #222;
+min-width: 82px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #eee;
+padding: 8px 48px;
+font-weight: bolder;
+text-align: center;
+border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .month{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.event .event-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.event .event-right h3.event-title{
+  font-size: 24px;
+  margin: 24px 0 10px 0;
+  color: rgb(89, 60, 106);
+  text-transform: uppercase;
+}
+
+.event .event-right .event-time{
+  background: #8b46bc39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding:8px;
+  border-radius: 16px;
+  margin: 24px 0;
+  font-size: 14px;
+}
+
+.event .event-right .event-time{
+
+}
+
+@media (max-width: 550px){
+  .event{
+    flex-direction: column;
+  }
+  .event .event-left{
+    padding: 0;
+    border-radius: 8px 8px 0 0 ;
+  }
+
+  .event .event-left .event-date .date,
+  .event .event-left .event-date .month{
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .event .event-left .event-date{
+    padding: 10px 0;
+  }
+
+
+}
+
+h2{
+  color: aliceblue;
+}
+
+.about p{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  bottom: 10px;
+  position: absolute;
+}
